@@ -42,14 +42,44 @@ ol {
 
 .the-form {
   background-color: silver;
+  padding: 30px;
+    border-radius: 10px;
 }
 
 .two-questions {
-  background-color: brown;
-  border-style: dashed;
-  border-width: 8px;
+  background-color: #DCDCDC;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
   padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+
+.box {
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+    border-radius: 10px;
+}
+
+.box1 {
+  padding: 10px;
+  background-color: #909090;
+}
+
+.box2 {
+  padding: 10px;
+  background-color: 	#FFC0CB;
+}
+
+.box3 {
+  padding: 10px;
+  background-color: #8B008B;
+}
+
+.centre-everything {
+  margin-left: 100px;
+  margin-right: 100px;
 }
