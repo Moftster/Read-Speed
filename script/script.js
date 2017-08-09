@@ -1,4 +1,3 @@
 $(document).ready(function() {
-/* alert("JQuery all set up!"); */
-
+/*alert("JQuery is working!");*/ 
 })

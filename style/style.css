@@ -1,4 +1,41 @@
 h1 {
-  font-size: 33px;
-  color: blue;
+  font-size: 100px;
+  font-family: helvetica;
+  font-family: lobster, sans-serif;
+  text-align: center;
+
+}
+
+.heading-text {
+  color: red;
+  font-size: 55px;
+  font-family: lobster;
+}
+
+p {
+  font-size: 25px;
+  font-family: lobster;
+}
+
+ul {
+  font-size: 40px;
+  font-family: lobster;
+}
+
+
+img {
+  max-width: 1000px;
+}
+
+.border {
+  border-width: 8px;
+  border-style: ridge;
+  border-radius: 10px;
+  border-color: #8acff0;
+
+}
+
+ol {
+  font-size: 40px;
+  font-family: lobster;
 }
