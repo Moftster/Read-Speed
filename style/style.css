@@ -1,5 +1,5 @@
 h1 {
-  font-size: 100px;
+  font-size: 80px;
   font-family: helvetica;
   font-family: lobster, sans-serif;
   text-align: center;
@@ -8,7 +8,7 @@ h1 {
 
 .heading-text {
   color: red;
-  font-size: 55px;
+  font-size: 40px;
   font-family: lobster;
 }
 
@@ -18,7 +18,7 @@ p {
 }
 
 ul {
-  font-size: 40px;
+  font-size: 25px;
   font-family: lobster;
 }
 
@@ -36,6 +36,20 @@ img {
 }
 
 ol {
-  font-size: 40px;
+  font-size: 25px;
   font-family: lobster;
+}
+
+.the-form {
+  background-color: silver;
+}
+
+.two-questions {
+  background-color: brown;
+  border-style: dashed;
+  border-width: 8px;
+  padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
