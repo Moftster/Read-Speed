@@ -1,3 +1,10 @@
+body {
+margin: -5px 100px 30px 100px;
+background-color: FF6C39;
+font-family: lobster;
+}
+
+
 h1 {
   font-size: 80px;
   font-family: helvetica;
@@ -25,6 +32,8 @@ ul {
 
 img {
   max-width: 1000px;
+  align-items: middle;
+
 }
 
 .border {
@@ -51,10 +60,9 @@ ol {
   border-style: solid;
   border-width: 3px;
   border-radius: 10px;
-  padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  padding: 10px 30px 10px 10px;
+  margin-bottom: 100px;
+
 }
 
 .box {
@@ -70,8 +78,7 @@ ol {
 }
 
 .box2 {
-  padding: 10px;
-  padding-left: 50px;
+  padding: 10px 10px 10px 50px;
   margin: 30px;
   background-color: 	#FFC0CB;
 }
@@ -80,9 +87,4 @@ ol {
   padding: 10px;
   margin: 30px;
   background-color: #8B008B;
-}
-
-.centre-everything {
-  margin-left: 100px;
-  margin-right: 100px;
 }
