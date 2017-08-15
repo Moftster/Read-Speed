@@ -6,22 +6,28 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="style/style.css"</link>
 
+<!-- This adds bootstrap to any file you add it to -->
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 
 </head>
 
 <body>
 
   <!--- This is a comment --->
+<div class="container-fluid">
 <div class="centre-everything">
   <h1> ReadSpeed.com </h1>
 
 
   <div class="the-form">
-
+<div class="text-center">
   <h2 class="heading-text">Sign up to ReadSpeed.co!</h2>
   <p>Enter your details below</p>
 
-  <form id="personal-details" action="/data">
+  <form id="personal-details" class="text-center" action="/data">
   <input type="text" placeholder="First name" required><br><br>
   <input type="text" placeholder="Last name" required><br><br>
   <label><input type="radio" name="gender" checked>Male</label>
@@ -36,18 +42,22 @@
 
   <input type="text" placeholder="Favourite book" required><br><br>
   <input type="text" placeholder="Email" required><br><br>
-
-  <button type="submit">Submit your deets</button>
+<div class="row">
+  <div class="col-xs-4"><button type="submit" class="btn btn-primary">Submit your deets</button></div>
+  <div class="col-xs-4"><button class="btn btn-info">More info</button></div>
+  <div class="col-xs-4"><button class="btn btn-danger ">Delete</button></div>
+</div>
   </form>
-
+</div>
 
   </div>
 
   <br><br><br><br>
 
-  <div class="box box1">
+  <div class="box box1 text-center">
     <h2 class="box box2">Pink box</h2>
     <h2 class="box box3"> Purple box</h2>
+    <button class="btn btn-primary">Click if you like colours</button>
 
   </div>
 <br><br>
@@ -71,7 +81,7 @@
   </ul>
 
   </div>
-  <img class='border' src=images/book3.jpg alt="Book header">
+  <img class='border img-responsive' src=images/book3.jpg alt="Book header">
 
   <p style="color: orange" style="font-size: 30px"> Welcome to ReadSpeed.com
     The site where we calculate how fast you read
@@ -81,25 +91,29 @@
 
 
 
-<img class="border" src=images/book1.jpg alt="Book being read on the beach">
+<img class="border img-responsive" src=images/book1.jpg alt="Book being read on the beach">
   <h2 class="heading-text">How does it work?</h2>
   <p>Read speed works by timing you to read a paticular segment of text, it then works our your Read Speed Per Minute (RSPM)<p>
 
-<a href=#><img class='border' src=images/book2.jpg alt="Stack of old books"></a>
+<a href=#><img class='border img-responsive' src=images/book2.jpg alt="Stack of old books"></a>
 
 <h2 id="heading-id" class="heading-text"> How long does it take</h2>
   <p>It will take as long as it takes you to read the block of text! Less than 1 minute for the majority of people.</p>
 
 
 
-
-<h2 id="blue-heading-text" class="heading-text">Three Reasons we want you to use ReadSpeed</h2>
+<div class="margin">
+<h2 id="blue-heading-text" >Three Reasons we want you to use ReadSpeed</h2>
 <ol>
   <li>We make money</li>
   <li>We introduce you to new books</li>
   <li>We create a community</li>
+  <li>Support your children's reading</li>
 
 </ol>
+</div>
+<button class="btn btn-block btn-primary" style="margin-bottom: 15px">Return to top of page</button>
+<img src="images/child-reading.jpg" alt="child reading" class="img-responsive">
 
 
 <!---
@@ -109,6 +123,8 @@ comment
 --->
 
 <!-- comment -->
+</div>
+
 </div>
 <body>
   <script src="script/jquery-3.2.1.min.js"></script>

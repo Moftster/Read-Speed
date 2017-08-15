@@ -1,3 +1,5 @@
+
+
 body {
 margin: 10px 100px 30px 100px;
 background-color: #FFDAE0;
@@ -8,12 +10,13 @@ font-family: lobster;
 h1 {
   font-size: 80px;
   text-align: center;
+  color: #2998E4;
 
 }
 
 .heading-text {
-  color: red;
-  font-size: 40px;
+  color: #2998E4;
+  font-size: 30px !important;
 }
 
 #blue-heading-text {
@@ -31,8 +34,8 @@ ul {
 
 
 img {
-  max-width: 1000px;
   align-items: middle;
+  height: auto;
 
 }
 
@@ -49,7 +52,7 @@ ol {
 }
 
 .the-form {
-  background-color: silver;
+  background-color: rgb(66,244, 215);
   padding: 30px;
     border-radius: 10px;
 }
@@ -64,6 +67,10 @@ ol {
 
 }
 
+.margin {
+  margin-bottom: 100px;
+}
+
 .box {
   border: solid;
   border-color: black;
@@ -73,7 +80,7 @@ ol {
 
 .box1 {
   padding: 10px;
-  background-color: #909090;
+  background-color: rgb(115, 169, 194);
 }
 
 .box2 {
