@@ -1,11 +1,7 @@
-
-
-body {
-margin: 10px 100px 30px 100px;
-background-color: #FFDAE0;
-font-family: lobster;
+.top {
+  margin: 10px;
+  background-color: yellow;
 }
-
 
 h1 {
   font-size: 80px;
