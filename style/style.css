@@ -10,6 +10,12 @@ h1 {
 
 }
 
+#fadeinout {
+
+  display:none;
+
+}
+
 .heading-text {
   color: #2998E4;
   font-size: 30px !important;
