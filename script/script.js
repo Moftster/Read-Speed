@@ -28,5 +28,9 @@ $("#right-well").children().css("color", "orange");
 
 $(".target:nth-child(1)").addClass("animated shake");
 
+// $("body").addClass("animated hinge");
+
+$("#right-well").addClass("animated hinge");
+
 
 });
